@@ -73,7 +73,9 @@ function countlvm() {
             p.style.fontSize = "45px";
             p.style.fontWeight = "800";
             p.style.padding = " 10px";
+            if(i == 10 || i == 20|| i == 30 || i == 40 || i == 50 || i == 60 || i == 70 || i == 80 || i == 90){
             p.style.color = colors();
+            }
             p.innerHTML = i;
             if (i == 99) {
                 p.style.color = "black";
